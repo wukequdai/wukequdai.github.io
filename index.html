@@ -1,0 +1,570 @@
+<!doctype html>
+<html>
+<head>
+	<title>Lu Chengcheng</title>
+  <meta charset="UTF-8">
+	<link rel="stylesheet" href="zhuxian.css">
+  <script type="text/javascript">
+		var curIndex=0;
+		var timeInterval=3000;
+		var arr=new Array();
+		arr=['images/1.jpg','images/2.jpg','images/3.jpg','images/4.jpg'];
+		setInterval(changeImg,timeInterval);
+		function changeImg(){
+			//var obj=document.getElementById("obj");
+			if(curIndex==3){
+					curIndex=0;
+			}else{
+				curIndex+=1;
+			}
+			obj.src=arr[curIndex];
+		}
+	</script>
+</head>
+<body>
+	<!-- 一 主导航 -->
+	<div class="main_nav">
+		<div class="logo"></div>
+		<div class="text"></div>
+		<ul class="lf">
+			<li class="nav1">
+				<a href="#">官网首页</a>
+				<span>/</span>
+			</li>
+			<li>
+				<a href="#">游戏公告</a>
+				<span>/</span>
+			</li>
+			<li>
+				<a href="#">官方活动</a>
+				<span>/</span>
+			</li>
+			<li>
+				<a href="#">游戏攻略</a>
+				<span>/</span>
+			</li>
+			<li>
+				<a href="#">新手指引</a>
+				<span>/</span>
+			</li>
+			<li>
+				<a href="#">官方论坛</a>
+				<span>/</span>
+			</li>
+			<li>
+				<a href="#">CDK兑换</a>
+				<span>/</span>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<!-- 二 主体-->
+	<div class="main">
+		<!-- 主背景 -->
+		<div class="wrap">
+			<div class="ap">
+				<div class="download">
+					<img src="images/down.png" alt="" />
+					<ul>
+						<li class="d1">
+							<a href="#">iOS下载</a>
+						</li>
+						<li class="d2">
+							<a href="#">安卓下载</a>
+						</li>
+						<li class="d3">
+							<a href="#">PC端模拟器下载</a>
+							</li>
+					</ul>
+				</div>
+				<div class="focus">
+					<img id="obj" src="images/1484174800136725710new.jpg">
+					<div class="gt">
+						<span class="prev">
+							<i></i>
+						</span>
+						<ul>
+							<li class="d4">
+								<a href="#">寻找命中注定的姻缘</a>
+							</li>
+							<li>
+								<a href="#">帮派美女有哪些你造吗?</a>
+							</li>
+							<li>
+								<a href="#">梦诛“遇见”真功夫</a>
+							</li>
+						</ul>
+						<span class="next">
+							<i></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!-- 新手礼包 -->
+			<div class="event">
+				<ul class="lf">
+					<li>
+						<a href="#">
+							<img src="images/1481573461257054887.jpg" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/1480627996575491199.jpg" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/1481565949886744832.jpg" alt="" />
+						</a>
+					</li>
+					<li class="d5">
+						<a href="#">
+							<img src="images/1482205995682947405.jpg" alt="" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 新手 -->
+			<div>
+				<!-- 新手向导 -->
+				<div class="xiangdao">
+					<div class="guide">
+						<a href="#" class="d6">
+						</a>
+					</div>
+					<ul>
+						<li>
+							<span>—</span>
+							<a href="#">门派介绍</a>
+						</li>
+						<li>
+							<span>—</span>
+							<a href="#">如何赚钱</a>
+						</li>
+						<li>
+							<span>—</span>
+							<a href="#">宠物推荐</a>
+						</li>
+						<li>
+							<span>—</span>
+							<a href="#">充值攻略</a>
+						</li>
+						<li>
+							<span>—</span>
+							<a href="#">快速升级</a>
+						</li>
+						<li>
+							<span>—</span>
+							<a href="#">战力提升</a>
+						</li>
+						<li>
+							<span>—</span>
+							<a href="#">浓清社交</a>
+						</li>
+						<li>
+							<span>—</span>
+							<a href="#">官方群</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 精选 -->
+				<div class="news">
+					<ul class="news_nav">
+						<li class="d8">
+							<a href="#">精选</a>
+						</li>
+						<li>
+							<a href="#">新闻</a>
+						</li>
+						<li>
+							<a href="#">活动</a>
+						</li>
+						<li>
+							<a href="#">公告</a>
+						</li>
+					</ul>
+					<a href="#" class="more"></a>
+					<div class="money">
+						<a href="#">充了钱，该怎么玩</a>
+					</div>
+					<ul class="news_list">
+						<li>
+							<span class="sort">
+								<a href="#">新闻</a>
+							</span>
+							<a href="#" class="link">《梦幻诛仙手游》“遇见”真功夫 美味大餐游戏礼包享不停</a>
+							<span class="time">01/13</span>
+						</li>
+						<li>
+							<span class="sort gonggao">
+								<a href="#">公告</a>
+							</span>
+							<a href="#" class="link">1月13日资料片“上古战场”更新公告</a>
+							<span class="time">01/13</span>
+						</li>
+						<li>
+							<span class="sort huodong">
+								<a href="#">活动</a>
+							</span>
+							<a href="#" class="link">【梦幻诛仙手游】双面双生，畅谈全新转职新玩法！</a>
+							<span class="time">01/12</span>
+						</li>
+						<li>
+							<span class="sort huodong">
+								<a href="#">活动</a>
+							</span>
+							<a href="#" class="link">梦幻发证啦，结婚证or单身证，总有一个属于你！</a>
+							<span class="time">01/12</span>
+						</li>
+						<li>
+							<span class="sort gonggao">
+								<a href="#">公告</a>
+							</span>
+							<a href="#" class="link">体验服第二期预约开服公告</a>
+							<span class="time">01/11</span>
+						</li>
+						<li>
+							<span class="sort">
+								<a href="#">新闻</a>
+							</span>
+							<a href="#" class="link">玩梦诛看《吐槽大会》，腾讯视频自制喜剧脱口秀今日正式...</a>
+							<span class="time">01/13</span>
+						</li>
+					</ul>
+				</div>
+				<!-- 青云门 -->
+				<div class="fuction">
+					<ul class="fuction_nav">
+						<li>
+							青<br>云<br>门
+							<i></i>
+						</li>
+						<li>
+							焚<br>香<br>谷
+						</li>
+						<li>
+							合<br>欢<br>派
+						</li>
+						<li>
+							鬼<br>王<br>宗
+						</li>
+						<li>
+							天<br>音<br>寺
+						</li>
+						<li class="shengwujiao">
+							圣<br>巫<br>教
+						</li>
+					</ul>
+					<ul class="fuction_name">
+						<li class="d10">陈御风</li>
+						<li>李诗若</li>
+					</ul>
+					<div>
+						<p>
+							<span class="span1">陈御风</span>
+							<span class="span2">群体法术</span>
+							<a href="#">查看详情></a>
+							<span class="span3">精于法术攻击，其道法变化万端，精妙绝伦，威力无穷，正道之士无不服膺顶礼。</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 三 大事件 -->
+	<div class="event2">
+		<div class="wrap">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="images/84952998005223.jpg" alt="" />
+						<div class="shaoxia">
+							<p>新手少侠看过来</p>
+							<span>领取开宝玩转梦诛三界</span>
+							<p class="d9">活动详情</p>
+							<b class="d11"></b>
+							<b class="d12"></b>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/960681197933657.jpg" alt="" />
+						<div class="shaoxia">
+							<p>老玩家故事</p>
+							<span>回味那年的不凡梦诛情</span>
+							<p class="d9">活动详情</p>
+							<b class="d11"></b>
+							<b class="d12"></b>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/14236559960315.jpg" alt="" />
+						<div class="shaoxia">
+							<p>浓情社交</p>
+							<span>携女神伴兄弟御剑三界</span>
+							<p class="d9">活动详情</p>
+							<b class="d11"></b>
+							<b class="d12"></b>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/747191411255988.jpg" alt="" />
+						<div class="shaoxia">
+							<p>感恩故事征集</p>
+							<span>七载梦诛 感恩有你</span>
+							<p class="d9">活动详情</p>
+							<b class="d11"></b>
+							<b class="d12"></b>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!-- 四 滑动图片 -->
+	<div class="feature">
+		<a href="#">
+			<img src="images/feat1.jpg">
+		</a>
+		<div>
+			<span class="feature_before"></span>
+			<ul class="lf">
+				<li>
+					<a href="#f1">1</a>
+				</li>
+				<li>
+					<a href="#f2">2</a>
+				</li>
+				<li>
+					<a href="#f3">3</a>
+				</li>
+				<li id="fnl4">
+					<a href="#f4">4</a>
+				</li>
+			</ul>
+			<span class="feature_after"></span>
+		</div>
+	</div>
+	<!-- 五 游戏攻略、视频中心 -->
+	<div class="wrap">
+		<div class="game">
+			<h2>游戏攻略</h2>
+			<ul class="news_nav">
+				<li class="d8"><a href="#">更新</a></li>
+				<li><a href="#">新手</a></li>
+				<li><a href="#">角色</a></li>
+				<li><a href="#">任务</a></li>
+				<li><a href="#">社交</a></li>
+				<li><a href="#">养成</a></li>
+			</ul>
+			<ul class="shengji">
+				<li class="d14">
+					<a href="#">
+						<img src="images/1481574059795309639.jpg" alt="" />
+					</a>
+				</li>
+				<li class="d15">
+					<a href="#">
+						<img src="images/1481574139762131550.jpg" alt="" />
+					</a>
+				</li>
+			</ul>
+			<a href="#" class="more"></a>
+			<ul class="news_list">
+				<li>
+					<span class="sort huodong">
+						<a href="#">角色</a>
+					</span>
+					<a href="#" class="link">
+						充了钱，该怎么玩
+					</a>
+					<span class="time">01/13</span>
+				</li>
+				<li>
+					<span class="sort">
+						<a href="#">新手</a>
+					</span>
+					<a href="#" class="link">
+						地表最强战力的男人——梦、叶子专访
+					</a>
+					<span class="time">01/06</span>
+				</li>
+				<li>
+					<span class="gonggao sort">
+						<a href="#">社交</a>
+					</span>
+					<a href="#" class="link">
+						【达人秀场】美女闯梦诛---女神成长日记
+					</a>
+					<span class="time">12/26</span>
+				</li>
+				<li>
+					<span class="sort huodong">
+						<a href="#">角色</a>
+					</span>
+					<a href="#" class="link">
+						蝉联4次首席大弟子《梦幻诛仙》PK高手鹿昊专访
+					</a>
+					<span class="time">12/21</span>
+				</li>
+				<li>
+					<span class="sort huodong">
+						<a href="#">角色</a>
+					</span>
+					<a href="#" class="link">
+						《梦幻诛仙手游》令人无所遁形的法系秒杀王：焚香
+					</a>
+					<span class="time">01/13</span>
+				</li>
+				<li>
+					<span class="gonggao sort">
+						<a href="#">社交</a>
+					</span>
+					<a href="#" class="link">
+						游戏心得浅谈之如何赚取更多的银币
+					</a>
+					<span class="time">01/15</span>
+				</li>
+			<ul>
+		</div>
+		<div class="shipin">
+			<h2>视频中心</h2>
+			<ul class="news_nav">
+				<li class="d8"><a href="#">更新</a></li>
+				<li><a href="#">官方</a></li>
+				<li><a href="#">攻略</a></li>
+				<li><a href="#">门派</a></li>
+			</ul>
+			<a href="#" class="more"></a>
+			<ul class="shipin_list">
+				<li class="xiongdi">
+					<a href="#">
+						<img src="images/9551716334972.jpg" alt="" />
+						<i></i>
+						<span>《张小凡的萌食店》第三集骨肉相连真滋味兄弟篇</span>
+					</a>
+				</li>
+				<li class="shitu">
+					<a href="#">
+						<img src="images/571351130702812.jpg" alt="" />
+						<i></i>
+						<span>《张小凡的萌食店》第二集竹林深处满清香之师徒篇</span>
+					</a>
+				</li>
+				<li class="biyao">
+					<a href="#">
+						<img src="images/62328713953317.jpg" alt="" />
+						<i></i>
+						<span>《张小凡的萌食店》第一集 碧落泪雪倾情碧瑶篇</span>
+					</a>
+				</li>
+				<li class="luhao">
+					<a href="#">
+						<img src="images/280150.1484403221.jpg" alt="" />
+						<i></i>
+						<span>【众神阁】第五期-鹿昊 双虎争雄实力为上</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!-- 六 媒体 -->
+	<div class="media">
+		<h2>媒体专区</h2>
+		<div class="media_picture">
+			<a href="#">
+				<img src="images/5253.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/yzz.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/tgbus.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/178.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/sina.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/youmin.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/mofang.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/ptbus.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/youxigou.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/quji.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/1688wan.png" alt="" />
+			</a>
+			<a href="#">
+				<img src="images/9669.png" alt="" />
+			</a>
+		</div>
+	</div>
+	<!-- 七 底部 -->
+	<div class="footer">
+		<div class="foot">
+			<div class="foot_l">
+				<p class="zulong">
+					<a href="#"class="d20">
+						<img src="images/foot_logo_q.png" width="166" height="31" border="0" alt="">
+					</a>
+				</p>
+				<div>
+					<a href="#" class="d21">
+						<img src="images/copy.png" width="85" height="30" border="0" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="foot_r">
+				<p class="d30">
+					<br>
+					本网络游戏适合年满17周岁以上的用户使用；为了您的健康，请合理控制游戏时间。
+					<br>
+					<a href="#">腾讯互动娱乐</a>
+					<span>丨</span>
+					<a href="#">服务条款</a>
+					<span>丨</span>
+					<a href="#">广告服务</a>
+					<span>丨</span>
+					<a href="#">腾讯招聘</a>
+					<span>丨</span>
+					<a href="#">腾讯游戏客服</a>
+					 
+					<span>丨</span>
+					<a href="#">游戏地图</a>
+					<span>丨</span>
+					<a href="#">游戏活动</a>
+					<span>丨</span>
+					<a href="#">商务合作</a>
+					<span>丨</span>
+					<a href="#">腾讯网</a>
+					<span>丨</span>
+					<a href="#">网站导航</a>
+				</p>
+				<p><a href="http://www.qq.com/culture.shtml" target="_blank">粤网文[2014]0633-233号</a> | <a href="http://game.qq.com/culture2.htm" target="_blank">新出网证（粤）字010号</a> | 【文网游备字】 文网游备字〔2016〕Ｍ-RPG 0840 号 | 批准文号：新广出审【2016】2683号 | 出版物号：ISBN978-7-7979-1241-9 | 著作权人：完美世界（北京）软件科技发展有限公司 | 出版单位：深圳市腾讯计算机系统有限公司</p>
+				<p class="fl">
+                    COPYRIGHT &copy;2017 LU CHENGCHENG. ALL RIGHTS RESERVED.
+        </p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
